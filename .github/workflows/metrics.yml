@@ -65,6 +65,6 @@ jobs:
           plugin_repositories: 100
           plugin_repositories_affiliations: owner
           plugin_repositories_batch: 100
-          plugin_repositories_featured: matthewgall/dnsjson.com matthewgall/rdap.cloud matthewgall/doh-proxy
+          plugin_repositories_featured: matthewgall/dnsjson.com, matthewgall/rdap.cloud, matthewgall/doh-proxy
           plugin_stargazers: yes
           plugin_stargazers_charts_type: classic
