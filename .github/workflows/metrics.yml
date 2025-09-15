@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubicloud
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: gh-metrics/metrics@latest
         with:
           # Your GitHub token
           # The following scopes are required:
@@ -60,8 +60,6 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
-          plugin_projects: yes
-          plugin_projects_limit: 4
           plugin_repositories: 100
           plugin_repositories_affiliations: owner
           plugin_repositories_batch: 100
